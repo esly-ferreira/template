@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;500&display=swap");
+
+.card h1 {
+  letter-spacing: -1px;
+  color: var(--a2);
+  font-size: 24px;
+}
+
+.card p {
+  color: var(--b3);
+  font-size: 14px;
+}
