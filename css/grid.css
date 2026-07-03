@@ -6,12 +6,22 @@
 
 .content {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 280px minmax(0, 1fr);
   grid-template-areas: "a b";
   gap: 16px;
   align-items: start;
   padding-top: 16px;
   padding-bottom: 24px;
+}
+
+.content > * {
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .content {
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
@@ -28,7 +38,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .bg {
     padding: 0 12px;
   }

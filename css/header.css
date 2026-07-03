@@ -9,6 +9,7 @@
   padding: 0 24px;
   pointer-events: none;
 }
+
 .header-inner {
   pointer-events: auto;
   display: flex;
@@ -17,7 +18,7 @@
   width: 100%;
   max-width: 1150px;
   padding: 8px 8px;
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -39,11 +40,11 @@
   width: 36px;
   height: 36px;
   border-radius: 10px;
-background-color: var(--b0);
+  background-color: var(--b0);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  background: var(--p1);
+  background: var(--a2);
 }
 
 .header-icon img {
