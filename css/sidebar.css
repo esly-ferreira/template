@@ -69,20 +69,12 @@
     gap: 12px;
     border-radius: 12px;
   }
-
   .sidebar h1 {
     font-size: 20px;
   }
-
   .sidebar-nav {
     flex-direction: row;
     flex-wrap: wrap;
-  }
-
-  .sidebar-nav a {
-    flex: 1 1 calc(50% - 4px);
-    text-align: center;
-    min-width: 0;
   }
 }
 
@@ -91,18 +83,10 @@
     padding: 14px;
     gap: 10px;
   }
-
   .sidebar h1 {
     font-size: 18px;
   }
-
   .sidebar > p {
-    font-size: 13px;
-  }
-
-  .sidebar-nav a {
-    flex: 1 1 100%;
-    padding: 8px 10px;
     font-size: 13px;
   }
 }
