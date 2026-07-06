@@ -18,7 +18,7 @@
   object-fit: cover;
 }
 
-.capa .icon-css {
+.capa .icon-banner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,6 +27,8 @@
   width: min(150px, 40vw);
   height: min(150px, 40vw);
   opacity: 0.5;
+  width: min(100px, 36vw);
+  height: min(100px, 36vw);
 }
 
 .conteudo-area {
@@ -68,6 +70,23 @@
   scale: 1.05;
 }
 
+.exemplo h2 {
+  margin-top: 16px;
+  font-size: 16px;
+  color: var(--b3);
+  margin-bottom: 8px;
+}
+
+.caixa-exemplo {
+  background-color: var(--b0);
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  min-width: 0;
+  scroll-margin-top: calc(var(--header-height) + 16px);
+}
+
 @media (max-width: 768px) {
   .capa {
     margin-top: 12px;
@@ -92,6 +111,9 @@
     font-size: 14px;
     padding: 8px 12px;
   }
+  .conteudo a:hover {
+    scale: 1.01;
+  }
 }
 
 @media (max-width: 480px) {
@@ -103,7 +125,7 @@
     height: 100px;
   }
 
-  .capa .icon-css {
+  .capa .icon-banner {
     width: min(100px, 36vw);
     height: min(100px, 36vw);
   }
@@ -113,8 +135,6 @@
   }
 
   .conteudo a {
-    display: block;
-    width: 100%;
     margin: 0 0 8px;
     text-align: center;
   }

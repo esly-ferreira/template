@@ -8,7 +8,8 @@
   text-decoration: none;
   font-size: 14px;
   border-radius: 8px;
-  padding: 8px 16px;
+  padding: 8px 6px;
+  padding-right: 16px;
   line-height: 1;
   transition: 0.1s ease-in;
 }
